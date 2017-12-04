@@ -1,5 +1,5 @@
 class Person:
-    def __init__(self, name):
+    def __init__(self, name="anonymous"):
         self.name = name
 
     def say_hi(self):
@@ -7,7 +7,7 @@ class Person:
 
 
 if __name__ == "__main__":
-	p = Person('Fred')
-	p.say_hi()
-	# The previous 2 lines can also be written as
-	# Person().say_hi()
+    p = Person('Fred')
+    p.say_hi()
+    # The previous 2 lines can also be written as
+    Person().say_hi()
