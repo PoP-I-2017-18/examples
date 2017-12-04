@@ -36,5 +36,5 @@ if __name__ == "__main__":
     y = Fraction(2,3)
     print(x)
     print(y)
-    print(x+y)
+    print(x + y)
     print(x == y)
